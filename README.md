@@ -23,3 +23,5 @@ Circled in green is another coding error that some developers can make. If a dev
 
 
 ![image](https://github.com/user-attachments/assets/625f88dd-448d-4186-91ad-416d7ebda38e)
+
+Image 1: Secure Coding
