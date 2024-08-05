@@ -13,6 +13,7 @@ The purpose for practicing and studying website application security is to prote
   - Security Misconfiguration
   - Cross-Site Scripting (XSS)
   - Insecure Deserialization
+- Penatration testing on web applications & Internet of Things (IOT) devices.
 
 #### Example Assignment
 Image 1 is a example from a previous assignment from one of my courses from my Master's porgram in Cybersecuity by Robert Morris University. In this assignment, I was presented a task to self analyze web application code and provide recomendations to modify the code in order to make it more secure and safe from common web attacks. 
