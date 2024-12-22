@@ -15,6 +15,23 @@ The purpose for practicing and studying website application security is to prote
   - Insecure Deserialization
 - Penatration testing on web applications & Internet of Things (IOT) devices.
 
+#### SQL Injection 
+For my practice of SQL Injections, I used Hack the Box to practice this website penetration testing technique.
+
+In this example, I was tasked to to login to a website as the user "Tom" without being given any information on the full username or the password information on the log in screen.
+
+To accomplish this task, I performed an SQL injection where I inserted "tom' OR '1'='1 --" on the Username field and left the password section blank. Performing this injection allowed me to bypass the log in screen and successfully gain access to the user or "Tom."
+
+Below is an image of the successful login screen for user "Tom" after performing the SQL injection on the login screen.
+![image](https://github.com/user-attachments/assets/5d4b80a0-8dab-465b-9efa-c8cb0e19a721)
+
+I was also tasked to only login as user with the ID 5. to a accomplish this task, I needed to conform to the correct syntax when importing my query. The query I used to bypass the login screen for the username field is "; OR  id=5" --"
+
+Below is another image of a successful login screen for the user with ID 5
+![image](https://github.com/user-attachments/assets/30569add-1b96-49ad-a7ce-c1aa1f8f9496)
+
+
+
 #### Example Assignment
 Image 1 is a example from a previous assignment from one of my courses from my Master's porgram in Cybersecuity by Robert Morris University. In this assignment, I was presented a task to self analyze web application code and provide recomendations to modify the code in order to make it more secure and safe from common web attacks. 
 
